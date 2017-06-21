@@ -1,0 +1,87 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+}
+
+
+.navbar-default {
+	background-color: #fff;
+	border-color: transparent;
+}
+
+.navbar{
+	font-size: 17px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #1c1f23;
+}
+
+a.navbar-header {
+	margin-top: 10px;
+	margin-left: 184px;
+	color: #1c1f23;
+	font-size: 20px;
+}
+
+.container-fluid {
+	margin-left: 20px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar-default .navbar-collapse{
+    margin-bottom: 17px;
+}
+
+img.logo{
+	margin-top: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: slategray;
+}
+
+/*FIRST SECTION*/
+.first-section{
+	background-image: url(../docs/img/taxi.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.first-section h1{
+	padding-top: 4em;
+	color: #FFF;
+	font-weight: 900;
+	font-size: 40px;
+}
+
+p#textmain{
+	color: #FFF;
+	font-weight: 400: 
+}
+
+.btn-primary{
+	background-color: #bdbfbb;
+	border-color: #bdbfbb;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/*FORMULARIO*/
+.ingresa{
+	background-color: #F5B532;
+	margin-top: 200px;
+}
