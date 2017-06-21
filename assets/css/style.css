@@ -133,3 +133,30 @@ i.fa{
 #inputInicio , #inputDestino{
 	margin-left: 20px;
 }
+
+input.button{
+	padding: 10px 3px;
+	color: black;
+	background-color: whitesmoke;
+	border: 0;
+	font-weight: 500;
+	border-radius: 4px;
+	font-family: "Roboto";
+	font-size: 13px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-top: 27px;
+	width: 200px;
+	margin-left: 50px
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #2B2B2B;
+    color: #fff;
+    padding: 60px;
+}
+.stores{
+	width: 150px;
+}
