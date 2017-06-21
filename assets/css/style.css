@@ -85,3 +85,34 @@ p#textmain{
 	background-color: #F5B532;
 	margin-top: 200px;
 }
+
+/*SECOND-SECTION*/
+.second-section{
+	background-color: #F5B532;
+	padding: 60px;
+	position: relative;
+}
+
+.cuadrado{
+	border: 1px solid #fff;
+	width: 900px;
+	height: 450px;
+	z-index: 1000;
+	position: absolute;
+	margin-top: -426px;
+	margin-left: -61px;
+}
+
+/*THIRD-SECTION*/
+.third-section{
+	background-image: url(../docs/img/conduce.jpg);
+	height: 60vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #fff;
+}
+.fondoform{
+	background-color: rgba(21, 19, 19, 0.5);
+}
+}
