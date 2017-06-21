@@ -97,13 +97,17 @@
 </section>
 <section class="four-section">
 	<div class="row">
-		<div class="col-lg-6 col-lg-offset-6 col-md-6 col-sm-6 col-xs-6 tarifas">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 tarifas">
 			<h2>Tarifas</h2>
 			<h4>Consulta las tarifas LabCar aquí</h4>
-
+			<div class="casillas">
+				<i class="fa fa-user-circle-o" aria-hidden="true"><input type="text" id="inputInicio" value="Holanda, Providencia, Chile" placeholder="Indique punto de partida" /></i>
+				<i class="fa fa-paper-plane" aria-hidden="true"><input type="text" id="inputDestino" value="Puma 1180, Recoleta, Chile" placeholder="Indique destino"/></i>
+				<input type="button" class="button" value="Obtener Ruta" onclick="obtenerRuta()" /> 
+			</div>
 		</div>
-		<div class="col-lg-6 col-lg-offset-6 col-md-6 col-sm-6 col-xs-6 mapa">
-			
+		<div class="col-lg-6 col-lg-offset-6 col-md-6 col-sm-6 col-xs-6 mapa" id="mapa">
+			<!-- Aqui va el mapa -->
 		</div>
 	</div>
 </section>

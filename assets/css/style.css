@@ -115,4 +115,21 @@ p#textmain{
 .fondoform{
 	background-color: rgba(21, 19, 19, 0.5);
 }
+
+/*FOUR-SECTION*/
+.four-section{
+	background-color: #F5B532;
+	padding: 60px;
+	color: #fff;
+}
+.casillas{
+	display: grid;
+}
+
+i.fa{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#inputInicio , #inputDestino{
+	margin-left: 20px;
 }
