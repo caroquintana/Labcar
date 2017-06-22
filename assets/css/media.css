@@ -88,9 +88,15 @@
 	.h2oclg {
 	display: none;
 	}
-	
+
 	.h3oclg {
 	display: none;
+	}
+}
+
+@media only screen and (min-width: 766px) and (max-width:  1199px){
+	#map{
+	margin-top: 3px;
 	}
 }
 
