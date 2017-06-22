@@ -130,8 +130,17 @@ i.fa{
 	font-size: 20px;
 	margin-bottom: 20px;
 }
+
 #inputInicio , #inputDestino{
 	margin-left: 20px;
+	border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 6px;
+    height: 36px;
+    font-size: 13px;
+	width: 280px;
+	font-family: "Roboto";
+	padding-left: 10px;
 }
 
 input.button{
@@ -146,8 +155,8 @@ input.button{
 	display: inline-block;
 	margin-bottom: 20px;
 	margin-top: 27px;
-	width: 200px;
-	margin-left: 50px
+	width: 167px;
+	margin-left: 90px
 }
 
 /*FOOTER*/
@@ -157,6 +166,38 @@ footer {
     color: #fff;
     padding: 60px;
 }
+
+.imgstores{
+	margin-top: 120px;
+}
+
 .stores{
 	width: 150px;
+	display: block;
+	margin-top: 10px;
+}
+
+.mr{
+	text-align: center;
+}
+
+.lises{
+	line-height: 30px;
+}
+
+.sociales{
+	color: #fff;
+	margin-left: 8px;
+}
+
+.sociales:hover{
+	color: #F5B532;
+}
+
+li{
+	color: #fff;
+}
+
+li:hover{
+	color: #F5B532;
 }
