@@ -41,6 +41,12 @@
 	border-color: #F5B532;	
 	}
 }
+
+@media only screen and (min-width: 403px) and (max-width: 1201px){
+	.cuadrado{
+		display: none;
+	}
+}
 @media only screen and (min-width: 616px) and (max-width: 2071px){
 	.comienzaxs{
 		display: none;
@@ -63,11 +69,26 @@
 	.h2desc{
 		display: none;
 	}
+
 }
+
+@media only screen and (min-width: 468px) and (max-width: 767px){
+	img.celular{
+	width: 63%;
+	margin-top: 30px;
+	}
+
+	h2.h2desc {
+    margin-top: -35px;
+    text-align: center;
+	}
+}
+
 @media only screen and (min-width: 616px) and (max-width:  2071px){
 	.h2oclg {
 	display: none;
 	}
+	
 	.h3oclg {
 	display: none;
 	}
