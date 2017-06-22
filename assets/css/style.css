@@ -7,6 +7,11 @@
 
 }
 
+.img-responsive{
+	width: 100%;
+	height: auto;
+}
+
 .navbar-default {
 	background-color: #fff;
 	border-color: transparent;
@@ -51,6 +56,11 @@ img.logo{
 	background-color: slategray;
 }
 
+li.menu:hover{
+	background-color: #F5B532;
+
+}
+
 /*FIRST SECTION*/
 .first-section{
 	background-image: url(../docs/img/taxi.jpg);
@@ -58,20 +68,21 @@ img.logo{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
+	color: #fff;
 }
 
-.first-section h1{
-	padding-top: 4em;
-	color: #FFF;
-	font-weight: 900;
-	font-size: 40px;
+h2.eres{
+	margin-top: 1px;
 }
 
-p#textmain{
-	color: #FFF;
-	font-weight: 400: 
+h3.viaja{
+	font-weight: 400;
+	font-size: 18px;
 }
 
+h4.registro{
+	font-size: 15px;
+}
 .btn-primary{
 	background-color: #bdbfbb;
 	border-color: #bdbfbb;
@@ -85,11 +96,38 @@ p#textmain{
 	margin-top: 200px;
 }
 
+.inputformulario {
+    display: inline-block;
+    width: 100px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+}
+
+p.inputformulario{
+	margin-left: 20px;
+	width: 58px;
+	border: none;
+}
+
+button.conviertete{
+	background-color: whitesmoke;
+	color: #2B2B2B;
+}
+
+button.conviertete:hover{
+	background-color: #2B2B2B;
+	color: whitesmoke
+}
+
 /*SECOND-SECTION*/
 .second-section{
 	background-color: #F5B532;
 	padding: 60px;
 	position: relative;
+	color: #fff;
+	line-height: 27px;
+	font-size: 15px;
 }
 
 .cuadrado{
@@ -102,6 +140,11 @@ p#textmain{
 	margin-left: -61px;
 }
 
+p.textocomun {
+    font-size: 15px;
+	margin-top: 24px;
+}
+
 /*THIRD-SECTION*/
 .third-section{
 	background-image: url(../docs/img/conduce.jpg);
@@ -111,10 +154,10 @@ p#textmain{
 	background-position: center center;
 	color: #fff;
 }
-.fondoform{
+
+.cajaconduce{
 	background-color: rgba(21, 19, 19, 0.5);
-	margin-left: 217px;
-	width: 400px;
+	margin-top: 0;
 	padding: 55px;
 }
 
@@ -139,6 +182,7 @@ h2.conduce{
 	padding: 60px;
 	color: #fff;
 }
+
 .casillas{
 	display: grid;
 }
@@ -190,8 +234,8 @@ input.button:hover{
 	border-color: #F5B532;
 	color: whitesmoke;
 }
-/*FOOTER*/
 
+/*FOOTER*/
 footer {
     background-color: #2B2B2B;
     color: #fff;
