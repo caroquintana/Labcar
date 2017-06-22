@@ -243,6 +243,13 @@ input.button:hover{
 	color: whitesmoke;
 }
 
+#mapa{
+	width: 40%;
+	height: 50vh;
+	border: 2px solid #fff;
+	margin-top: -250px;
+}
+
 /*FOOTER*/
 footer {
     background-color: #2B2B2B;
