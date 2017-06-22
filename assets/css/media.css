@@ -41,7 +41,7 @@
 	border-color: #F5B532;	
 	}
 }
-@media only screen and (min-width: 616px) and (max-width: 1071px){
+@media only screen and (min-width: 616px) and (max-width: 2071px){
 	.comienzaxs{
 		display: none;
 	}
@@ -60,8 +60,11 @@
 	.textocomun{
 	display: none;
 	}
+	.h2desc{
+		display: none;
+	}
 }
-@media only screen and (min-width: 616px) and (max-width: 1071px){
+@media only screen and (min-width: 616px) and (max-width:  2071px){
 	.h2oclg {
 	display: none;
 	}
