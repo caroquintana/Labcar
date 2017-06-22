@@ -1,1 +1,91 @@
-media.css
+/*Seccion nav*/
+@media only screen and (min-width: 1px) and (max-width: 615px){
+	img.logo{
+		width: 30%;
+	}
+	.navbar-toggle {
+		float: left;
+	}
+}
+/*Seccion formulario*/
+@media only screen and (min-width: 1px) and (max-width: 615px){
+	.disfruta{
+		display: none;
+	}
+	.eres{
+		display: none;
+	}
+	.viaja{
+		display: none;
+	}
+	.registro{
+		display: none;
+	}
+	.formocultar{
+		display: none;
+	}
+	button.conviertete{
+		display: none;
+	}
+	button.botonxs{
+	background-color: whitesmoke;
+	color: black;
+	border-color: #bdbfbb;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 144px;
+	margin-left: -9px;
+	}
+	button.botonxs:hover{
+	background-color: #2B2B2B;
+	border-color: #F5B532;	
+	}
+}
+@media only screen and (min-width: 616px) and (max-width: 1071px){
+	.comienzaxs{
+		display: none;
+	}
+	button.botonxs{
+		display: none;
+	}
+}
+/*Seccion celular gigante*/
+@media only screen and (min-width: 1px) and (max-width: 615px){
+	.cuadrado{
+	width: 315px;
+	height: 368px;
+	margin-top: -470px;
+	margin-left: -22px;
+	}
+	.textocomun{
+	display: none;
+	}
+}
+@media only screen and (min-width: 616px) and (max-width: 1071px){
+	.h2oclg {
+	display: none;
+	}
+	.h3oclg {
+	display: none;
+	}
+}
+
+/*Footer*/
+@media only screen and (min-width: 1px) and (max-width: 615px){
+	.euno{
+	margin-left: -64px;
+	}
+	.edos{
+	display: none
+	}
+	.imgstores {
+    margin-top: -200px;
+    margin-left: 85px;
+	}
+	div.list{
+	margin-top: -230px;
+	margin-bottom: 215px;
+	margin-left: 85px;
+	}
+}
+
