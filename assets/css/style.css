@@ -7,7 +7,6 @@
 
 }
 
-
 .navbar-default {
 	background-color: #fff;
 	border-color: transparent;
@@ -114,8 +113,26 @@ p#textmain{
 }
 .fondoform{
 	background-color: rgba(21, 19, 19, 0.5);
+	margin-left: 217px;
+	width: 400px;
+	padding: 55px;
 }
 
+h2.conduce{
+	margin-top: 45px;
+	font-size: 25px;
+}
+
+.conviertetedos{
+	background-color: #F5B532;
+	margin-left: 29px;
+	border-color: #F5B532;
+}
+
+.conviertetedos:hover{
+	background-color: #2B2B2B;
+	border-color: #F5B532;
+}
 /*FOUR-SECTION*/
 .four-section{
 	background-color: #F5B532;
@@ -129,6 +146,15 @@ p#textmain{
 i.fa{
 	font-size: 20px;
 	margin-bottom: 20px;
+}
+
+h2{
+	font-weight: 400;
+}
+
+h4{
+	font-weight: 400;
+	margin-bottom: 25px;
 }
 
 #inputInicio , #inputDestino{
@@ -159,6 +185,11 @@ input.button{
 	margin-left: 90px
 }
 
+input.button:hover{
+	background-color: #2B2B2B;
+	border-color: #F5B532;
+	color: whitesmoke;
+}
 /*FOOTER*/
 
 footer {
@@ -200,4 +231,8 @@ li{
 
 li:hover{
 	color: #F5B532;
+}
+
+.list {
+	margin-top: 20px;
 }
